@@ -12,5 +12,11 @@ class DemoApplicationTests {
 	void contextLoads() {
 		assertTrue(true);
 	}
+        @Test
+	void m1()(){
+         int x= 5;
+	assertEquals(5, 5);
+		
+	}
 
 }
